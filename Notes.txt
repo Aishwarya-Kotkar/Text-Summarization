@@ -1,0 +1,28 @@
+##Argument Parser :
+argparse module used to link command line interface input to the program 
+
+argparse.ArgumentParser : container for argument specifications.
+
+ ArgumentParser.add_argument() method attaches individual argument specifications to the parser.
+
+ ArgumentParser.parse_args() method runs the parser and places the extracted data. 
+ It takes arguments passed to the script and convert into an object so it can easily accessed and used within script.
+ 
+ 
+##Defaultdict from collection:
+ A defaultdict is a subclass of the built-in Python dict class. It is defined in the collections module.
+ The main difference between a defaultdict and a regular dict is that when a defaultdict is accessed with a key that does not exist,
+ it automatically creates that key with a default value, rather than raising a KeyError.
+ 
+ 
+##NLARGEST FROM HEAPQ:
+	syntax: nlargest(n,iterable,key)
+The nlargest function from the heapq library is used to find the n largest elements from an iterable,
+where n is an integer specified as an argument. It returns a list of the n elements in descending order.
+The function takes three arguments:
+
+n: The number of elements to return.
+iterable: The iterable to search for the largest elements in.
+key: An optional key function that is used to determine what elements to compare. 
+If not specified, the elements are compared directly.
+ 
